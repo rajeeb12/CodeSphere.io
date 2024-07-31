@@ -3,7 +3,7 @@ import { Remarkable } from "remarkable";
 import { Container, Row, Col } from "react-bootstrap";
 import { useLocalStorage } from "../../Hooks/LocalStorage";
 import { linkify } from "remarkable/linkify";
-import TextareaAutosize from "react-autosize-textarea";
+// import TextareaAutosize from "react-autosize-textarea";
 import Toolbar from "./Toolbar";
 import Footer from "../Footer";
 import fileDownload from "js-file-download";
@@ -92,12 +92,13 @@ function Editor() {
                 fileDownload(userInput, "README.md");
               }}
             />
-            <TextareaAutosize
+            {/* <TextareaAutosize
               id="textarea_input"
               onChange={handelChange}
               value={userInput}
               style={mdIn}
-            />
+            /> */}
+            <textarea id="textarea_input" onChange={handelChange} value={userInput} style={mdIn} />
           </Col>
           <Col md={6} style={{ paddingTop: "35px" }}>
             <h3 className="text-center"> Html Preview</h3>
