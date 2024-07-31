@@ -45,5 +45,8 @@
     "@react-aria/ssr": "3.9.5",
     "@restart/ui": "1.6.9",
     "react-bootstrap": "2.10.4"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.9.5"
   }
 }
