@@ -21,7 +21,7 @@
     "react-autosize-textarea": "^7.1.0",
     "react-bootstrap": "^2.10.4",
     "react-codemirror2": "^8.0.0",
-    "react-dom": "^15.0.0",
+    "react-dom": "^16.14.0",
     "react-router-dom": "^6.25.1",
     "react-textarea-autosize": "^8.5.3",
     "remarkable": "^2.0.1"
@@ -40,7 +40,7 @@
     "vite": "^5.3.4"
   },
   "resolutions": {
-    "react": "^18.3.1",
+    "react": "^15.7.0",
     "@react-aria/ssr": "3.9.5",
     "@restart/ui": "1.6.9",
     "react-bootstrap": "2.10.4"
