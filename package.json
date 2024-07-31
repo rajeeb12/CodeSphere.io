@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@github/markdown-toolbar-element": "^2.2.3",
+    "@restart/ui": "^1.6.9",
     "@uiw/codemirror-extensions-langs": "^4.23.0",
     "@uiw/react-codemirror": "^4.23.0",
     "bootstrap": "^5.3.3",
@@ -38,5 +39,8 @@
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.7",
     "vite": "^5.3.4"
+  },
+  "resolutions": {
+    "react": "^18.3.1"
   }
 }
